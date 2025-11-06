@@ -164,6 +164,8 @@ h6, .h6 {
 }
 
 p {
+  font-family: var(--bs-body-font-sans-serif);
+  font-size: 17pt;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -588,7 +590,7 @@ progress {
 }
 
 .blockquote-footer {
-  margin-top: 5rem;
+  margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
   color: #6c757d;
@@ -11204,4 +11206,18 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.service-icon2 {
+  background-color: transparent;
+  color: #f1ff2b;
+  height: 7rem;
+  width: 7rem;
+  font-size: 2.25rem;
+}
+.service-icon3 {
+  background-color: transparent;
+  color: darkred;
+  height: 7rem;
+  width: 7rem;
+  font-size: 2.25rem;
 }
